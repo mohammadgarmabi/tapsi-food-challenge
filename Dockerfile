@@ -8,9 +8,9 @@ RUN npm install -g pnpm
 
 RUN pnpm install
 
-COPY src /app/src
+COPY dist /app/dist
 
-RUN pnpm run build
+RUN pnpm build
 
 EXPOSE 3000
 
