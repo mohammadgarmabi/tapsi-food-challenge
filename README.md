@@ -1,5 +1,7 @@
 # Tapsi-Food-Challenge
 
+## See docs folder for more details of bundleSize and performance
+
 ### Project Overview
 
 In this project, I utilized the following technologies to build an efficient and scalable frontend application:
@@ -166,14 +168,6 @@ export const responseInterceptor = {
   },
 };
 
-```
-
-#### File: `config.ts`
-```ts
-import apiClient from './interceptor';
-import { ENDPOINTS } from './endpoint';
-
-export { apiClient, ENDPOINTS };
 ```
 
 ---
